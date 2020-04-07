@@ -1,0 +1,115 @@
+<!DOCTYPE html >
+<html>
+<head>
+  <meta charset="utf-8" >
+   <title>Blackstone Bistro: Pizza-on-Demand</title>
+   <style type="text/css">
+      ol, ul { 
+     list-style-type: none;
+     color: #7e3d26;
+      }
+      body {
+        background-color: #73ad97;
+        margin: 0 10%;
+        font-family: sans-serif;
+        }
+
+       li.nav{
+          display: inline;
+        }
+      ul.nav {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+        }
+
+      h1 {
+        text-align: center;
+        font-family: serif;
+        font-weight: normal;
+        text-transform: uppercase;
+        border-bottom: 1px solid #57b1dc;
+        margin-top: 30px;
+      }
+
+      h2 {
+        color: #d1633c;
+        font-size: 1em;
+      }
+      h3 {
+        color: #7e3d26;
+        font-size: 0.95em;
+      }
+      legend {
+        color: #d1633c;
+      }
+      p.review{
+        font-Size: 0.9em;
+      }
+      p {
+        color: #7e3d26;
+      }
+
+    </style>
+    <header>    
+      <ul class = "nav">
+          <li class = "nav"><a href="index.html">Home</a></li>
+          <li class = "nav"><a href="about.html">About</a></li>
+          <li class = "nav"><a href="menu.html">Menu</a></li>
+          <li class = "nav"><a href="blog.html">Blog</a></li>
+          <li class = "nav"><a href="contact.html">Contact</a></li>
+      </ul>
+    </header>
+</head>
+
+<body>
+
+<h1>Blackstone Bistro | Pizza-on-Demand</h1>
+
+<p>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</p>
+<form action="http://www.blackgoosebistro.com/pizza.php" method="POST">
+
+<fieldset>
+<legend>Your Information</legend>
+<ul>
+  <li>Name: <input type="text" name="customername"> </li> 
+  <li>Address: <input type="text" name="address"> </li> 
+  <li>Telephone Number: <input type="tel" name="telephone"> </li> 
+  <li>Email: <input type="email" name="email"> </li> 
+  <li>Delivery instructions: <br> <textarea name="instructions" rows="4" cols="60" maxlength="400" placeholder="No more than 400 characters long"></textarea> </li> 
+</ul>
+</fieldset>
+
+<h2>Design Your Dream Pizza:</h2>
+
+
+
+<fieldset>
+<legend>Pizza specs</legend>
+<p>Crust <em>(Choose one)</em>:</p>
+<ul>
+  <li><input type="radio" name="crust" value="White" checked> Classic white</li>
+  <li><input type="radio" name="crust" value="Multigrain"> Multigrain</li>
+  <li><input type="radio" name="crust" value="Stuffed"> Cheese-stuffed crust</li>
+  <li><input type="radio" name="crust" value="Gluten Free"> Gluten-free</li>
+</ul>
+
+
+
+<p>Toppings <em>(Choose as many as you want)</em>:</p>
+<ul>
+  <li><input type="checkbox" name="toppings" value="Red Sauce">Red sauce</li>
+  <li><input type="checkbox" name="toppings" value="White Sauce">White sauce</li>
+  <li><input type="checkbox" name="toppings" value="Mozzarella Cheese">Mozzarella Cheese</li>
+  <li><input type="checkbox" name="toppings" value="Pepperoni">Pepperoni</li>
+  <li><input type="checkbox" name="toppings" value="Mushrooms">Mushrooms</li>
+  <li><input type="checkbox" name="toppings" value="Peppers">Peppers</li>
+  <li><input type="checkbox" name="toppings" value="Anchovies">Anchovies</li>
+</ul>
+</fieldset>
+<p>Number</p>
+<p>How many pizzas:<p>
+  <p><input type="submit" value="Bring me a pizza!" ><input type="reset"></p> 
+</form>
+</body>
+</html>
