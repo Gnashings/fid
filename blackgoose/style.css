@@ -48,7 +48,7 @@
     font-size: 1em;
     }
 
-    h2.menu{
+    .menu{
     font-size: 1em;
     text-transform: uppercase;
     letter-spacing: .5em;
@@ -127,7 +127,7 @@
     color: #e0dcda;
     }
 
-    p.warning, sup { 
+    .warning, sup { 
     font-size: small;
     color: red;
     text-align: center;
