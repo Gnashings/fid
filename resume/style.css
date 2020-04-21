@@ -1,0 +1,62 @@
+body {
+
+    background-color: #737cad;
+    font-family: sans-serif;
+    }
+
+.bodygallery {
+    margin: 0 10%;
+    font-family: sans-serif;
+}
+
+.pgallery {
+    text-align: center;
+}
+
+.listgallery{
+    margin: 0 30%;
+}
+  
+h1 {
+    text-align: center;
+    font-family: serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #dcbd57;
+    background-color: #737cad;
+    border-bottom: 1px solid #57b1dc;
+    padding: 30px 10em 30px 10em;
+    }
+
+p {
+    margin: 0 10%;
+    font-size: 0.80em;
+    color: #f7b57e;
+    }
+.body{
+    margin: 10em;
+    padding-bottom: 60px;
+    background-color:#495e7e;
+    }
+
+h2 {
+    padding-left: 2em;
+    color: #dcbd57;
+    font-size: 1em;
+    }
+
+h3 {
+    padding-left: 2em;
+    color: #bb792e;
+    font-size: 0.95em;
+    }
+
+review{
+    font-Size: 0.9em;
+    }
+
+ul{
+    padding-left: 8em;
+    font-size: 0.80em;
+    color: #f7b57e;
+    }
