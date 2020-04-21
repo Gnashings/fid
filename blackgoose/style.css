@@ -1,0 +1,144 @@
+    
+    body {
+    background-color: #7393AD;
+    margin: 0 10%;
+    font-family: Georgia, serif;
+    line-height: 1.75em;
+    }
+
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+
+    ol, ul { 
+    list-style-type: none;
+    color: #f9d7eb;
+    }
+
+    li.nav {
+    display: inline;
+    }
+
+    li.orderbutton {
+    display: inline;
+    }
+
+    ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+
+    h1 {
+    text-align: center;
+    font-family: serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e0dcda;
+    margin-top: 30px;
+    font: bold 1.5em "Marko One", Georgia, serif;
+    color: #f9d7eb;
+    text-shadow: 0.05em .05em .1em rgb(96, 69, 99);
+    }
+
+    h2 {
+    color: #eacb33;
+    font-size: 1em;
+    }
+
+    h2.menu{
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    color: #eacb33 ;
+    text-align: center;
+    }
+
+    h3 {
+    color: #f9acc1;
+    font-size: 0.95em;
+
+    }
+
+    dl{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+    color: #e0dcda;
+    }
+
+    dt{
+    font-weight: bold;
+    color: #eacb33 ;
+    }
+
+    p.review{
+    font-Size: 0.9em;
+    color: #f9d7eb;
+    }
+
+    p {
+    color: #e0dcda;
+    }
+
+    .center{
+    margin-left:auto;
+    margin-right:auto;
+    }
+
+    button {
+    display: block;
+    max-width: 200px;
+    margin: auto;
+    border: none;
+    background: transparent;
+    }
+    
+    legend {
+    color: #f9acc1;
+    }
+
+    strong{
+    font-style: italic;
+    color: #f9acc1;
+    }
+
+    .price{
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: #f9d7eb;
+    }
+
+    .label {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: normal;
+    }
+
+    #info {
+    text-align: center;
+    }
+
+    #info p{
+    font-style: italic;
+    color: #e0dcda;
+    }
+
+    p.warning, sup { 
+    font-size: small;
+    color: red;
+    text-align: center;
+    }
+
+    #appetizers h2 + p {
+    text-align: center;
+    font-style: italic;    
+    }
+
+    #entrees h2 + p {
+    text-align: center;
+    font-style: italic;    
+    }
