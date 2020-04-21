@@ -89,7 +89,7 @@
     margin-right:auto;
     }
 
-    button {
+    a.orderbutton {
     display: block;
     max-width: 200px;
     margin: auto;
